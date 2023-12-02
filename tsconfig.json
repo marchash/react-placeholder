@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES3",
+    "target": "ES6",
     "module": "commonjs",
     "declaration": true,
     "allowSyntheticDefaultImports": false,
@@ -8,7 +8,6 @@
     "experimentalDecorators": true,
     "outDir": "./lib",
     "baseUrl": ".",
-    "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "sourceMap": false,
