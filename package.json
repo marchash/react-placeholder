@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "rm -rf lib && mkdir lib && sass src:lib && tsc",
-    "preversion": "npm run typecheck && npm run test",
-    "prepublishOnly": "npm run build",
+    "prepack": "npm run build",
     "start": "styleguidist server",
     "typecheck": "tsc --noEmit"
   },
