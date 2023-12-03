@@ -28,7 +28,7 @@
     "url": "https://github.com/buildo/react-placeholder/issues"
   },
   "files": [
-    "lib"
+    "lib/*"
   ],
   "homepage": "https://github.com/buildo/react-placeholder",
   "typings": "lib",
